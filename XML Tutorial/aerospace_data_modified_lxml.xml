@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AerospaceData>
+    <Aircraft id="A380-800">
+        <Name>Airbus A380-800</Name>
+        <Manufacturer>Airbus</Manufacturer>
+        <Systems>
+            <System name="Avionics">
+                <Status>Operational</Status>
+                <SoftwareVersion>2.1.0</SoftwareVersion>
+            </System>
+            </Systems>
+    </Aircraft>
+    <FlightPlan id="FP001">
+        <AircraftRef id="A380"/>
+        <Origin>EGLL</Origin>
+        <Destination>KJFK</Destination>
+        <Route>
+            <Waypoint lat="51.47" lon="0.45">LHR</Waypoint>
+            <Waypoint lat="40.64" lon="-73.78">JFK</Waypoint>
+        </Route>
+        <Altitude unit="ft">38000</Altitude>
+    </FlightPlan>
+<FlightPlan id="FP002"><AircraftRef id="787"/><Origin>KSEA</Origin><Destination>PANC</Destination></FlightPlan></AerospaceData>

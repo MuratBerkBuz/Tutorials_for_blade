@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpacs xmlns="http://www.dlr.de/cpacs/3.3" version="3.3">
+    <vehicles>
+        <aircraft uid="MyAircraft">
+            <name>Test Aircraft</name>
+            <wings>
+                <wing uid="Wing1">
+                    <name>Main Wing</name>
+                    <area>35.0</area>
+                    <span>28.0</span>
+                </wing>
+            </wings>
+        </aircraft>
+    </vehicles>
+</cpacs>
