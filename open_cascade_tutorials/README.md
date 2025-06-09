@@ -1,5 +1,5 @@
 # Open Cascade Tutorials 
-<<<<<<< HEAD
+
 To add OCP library:
 conda create -n pyoccenv python=3.8
 conda activate pyoccenv
@@ -10,6 +10,5 @@ ocp_env\Scripts\activate
 pip install ocp
 
 
-<<<<<<< HEAD
 hard to implement on win64 use Linux instead
 
